@@ -9,7 +9,7 @@ public class Solution {
         if (s.isEmpty()) {
             System.out.println(0);
         }else {
-            String tokens[] = s.split("[ !,?._'@]+");
+            String[] tokens = s.split("[ !,?._'@]+");
             System.out.println(tokens.length);
             for (String token : tokens) {
                 System.out.println(token);

@@ -11,7 +11,7 @@ public class Solution {
         for (int i = c.length - 1; i >= 0; i--){
             b.append(c[i]);
         }
-        if (a.equals(b.toString())) {
+        if (a.contentEquals(b)) {
             System.out.println("Yes");
         } else {
             System.out.println("No");
