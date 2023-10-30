@@ -1,4 +1,4 @@
-package Java_BigDecimal_Exercise;
+package BigDecimal;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -20,8 +20,6 @@ public class Solution {
         Arrays.sort(s, Comparator.comparing(BigDecimal::new, Comparator.reverseOrder()));
 
         //Output
-        System.out.println("\n");
-        System.out.println("Ordered:");
         for (int i = 0; i < n; i++){
             System.out.println(s[i]);
         }
